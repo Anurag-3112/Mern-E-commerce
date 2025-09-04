@@ -35,7 +35,7 @@
 
 ## 🛠️ Tech Stack
 **Frontend:** React, HTML, CSS, JavaScript  
-**Backend:** Java (Spring Boot / Servlets) + Node/Express (if hybrid)  
+**Backend:** Java (Spring Boot / Servlets) + Node/Express 
 **Database:** MongoDB  
 **Authentication:** JWT / Sessions  
 **Other Tools:** Git, Postman, REST APIs  
@@ -46,5 +46,5 @@
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/your-username/mern-ecommerce-app.git
+git clone https://github.com/Anurag-3112/mern-ecommerce-app.git
 cd mern-ecommerce-app
