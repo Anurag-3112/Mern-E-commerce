@@ -17,13 +17,13 @@ const db = mysql.createConnection({
 });
 
 db.connect(err => {
-  if (err) console.log("❌ DB connection error:", err);
-  else console.log("✅ MySQL Connected");
+  if (err) console.log("DB connection error:", err);
+  else console.log("MySQL Connected");
 });
 
 // Test route
 app.get("/", (req, res) => {
-  res.send("Backend is running 🚀");
+  res.send("Backend is running");
 });
 
 // Products API
@@ -34,4 +34,4 @@ app.get("/products", (req, res) => {
   });
 });
 
-app.listen(5000, () => console.log("✅ Server running on http://localhost:5000"));
+app.listen(5000, () => console.log("Server running on http://localhost:5000"));
